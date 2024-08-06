@@ -6,21 +6,12 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+.site-container {
+  min-height: 100vh;
+}
 
 main {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
-header {
-  background-color: #404040;
-  padding: 1rem;
-}
-header a {
-  color: white;
-  font-weight: bold;
-  text-decoration: none;
+  flex: 1;
 }
 
 .products {
